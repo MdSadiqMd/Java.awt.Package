@@ -25,7 +25,7 @@ public class _3_ActionListener {
         button.addActionListener(new java.awt.event.ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                label.setText("Button Clicked Succesfully");
+                label.setText("Button Clicked Successfully"); //This will change the text of label when button is clicked
             }
         });
         frame.addWindowListener(new WindowAdapter() {

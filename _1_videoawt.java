@@ -36,6 +36,14 @@ public class _1_videoawt  {
         textarea.setBounds(250,40,100,100);
         frame.add(textarea);
 
+        //Creating a Checkbox
+        Checkbox checkbox =new Checkbox("Java");
+        checkbox.setBounds(350,100,100,100);
+        frame.add(checkbox);
+        Checkbox checkbox1 =new Checkbox("Python");
+        checkbox1.setBounds(350,150,100,100);
+        frame.add(checkbox1);
+
         frame.setSize(700,500); //this creates an outer frame of the web app
         frame.setLayout(null);//if we not write this line then the elements we add will come as same size of whole layout
         frame.setVisible(true); //this tells to allow to display the output we are doing
